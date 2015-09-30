@@ -2,6 +2,9 @@
 
 Easy way to use both [Alamofire](https://github.com/Alamofire/Alamofire) and [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
 
+## Fork
+This is a fork repo. It contains latest fixes and close PR from the original Repo
+
 ## Requirements
 
 - iOS 8.0+ / Mac OS X 10.9+
@@ -14,7 +17,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'Alamofire-SwiftyJSON'
+pod "Alamofire-SwiftyJSON", :git => "https://github.com/kostiakoval/Alamofire-SwiftyJSON.git"
 
 ```
 
